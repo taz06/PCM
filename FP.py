@@ -11,7 +11,6 @@ from math import log10, sqrt
 import math
 from skimage import img_as_ubyte
 
-st.cache_data #utk mempercepat proses loadingnya
 def load_image(image):
     img = Image.open(image)
     return img
